@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{2678E5B0-7EFB-DBFC-DC12-1CE26A73070A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ReadMap.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ShowMaps.cs" Line="1" Column="1" />
+      <File FileName="Assets/Placenote/Examples/PlacenoteSampleView.cs" Line="190" Column="2" />
+      <File FileName="Assets/Scripts/ReadMap.cs" Line="129" Column="21" />
+      <File FileName="Assets/Countdown.cs" Line="31" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="arpi_project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Placenote" expanded="True">
+                <Node name="Examples" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="ReadMap.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="arpi_project" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e7546e12-fd9c-4614-8093-7520e229d37c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

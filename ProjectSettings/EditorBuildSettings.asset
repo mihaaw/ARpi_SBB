@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Home.unity
     guid: 5004d8e8003c343a6898838c16a03a76
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CreateMap.unity
     guid: c1577ca0f3e4c4bbcaaa7c8107ec5dfc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ReadMap.unity
     guid: 7ff821bf32bc1492992d7836af8c28f1
+  - enabled: 0
+    path: Assets/Placenote/Scenes/placenote.unity
+    guid: 1257efda9ace3439485a7e2c7516465e
   m_configObjects: {}

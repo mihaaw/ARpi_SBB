@@ -14,7 +14,7 @@ public class CreateMap : MonoBehaviour, PlacenoteListener {
 
     public Text debugText;
 
-    private const string MAP_NAME = "GenericMap";
+    public string MAP_NAME = "Tram";
 
     private CustomShapeManager shapeManager;
 

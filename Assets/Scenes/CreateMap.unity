@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugText: {fileID: 1291491902}
+  MAP_NAME: Zug
 --- !u!1 &400757283
 GameObject:
   m_ObjectHideFlags: 0

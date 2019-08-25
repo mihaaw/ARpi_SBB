@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 
 public class ReadMap : MonoBehaviour, PlacenoteListener {
 
-    private const string MAP_NAME = "GenericMap";
+    //public string MAP_NAME;
 
     private UnityARSessionNativeInterface mSession;
     private bool mFrameUpdated = false;
@@ -85,7 +85,7 @@ public class ReadMap : MonoBehaviour, PlacenoteListener {
             } else if (!mARKitInit && LibPlacenote.Instance.Initialized()) {
                 mARKitInit = true;
                 Debug.Log("ARKit Initialized: LOADING MAP!!!!!");
-                FindMap();
+                
             }
 
             Matrix4x4 matrix = mSession.GetCameraPose();
@@ -97,7 +97,7 @@ public class ReadMap : MonoBehaviour, PlacenoteListener {
         }
     }
 
-    void FindMap() {
+    void FindMap(string MAP_NAME) {
         //get metadata
         LibPlacenote.Instance.SearchMaps(MAP_NAME, (LibPlacenote.MapInfo[] obj) => {
             foreach (LibPlacenote.MapInfo map in obj) {
@@ -109,6 +109,22 @@ public class ReadMap : MonoBehaviour, PlacenoteListener {
                 }
             }
         });
+    }
+
+    public void OnTramClick()
+    {
+        FindMap("Tram");  
+    }
+
+    public void OnTrainlick()
+    {
+        FindMap("Zug");
+    }
+
+    public void OnBusClick()
+    {
+        FindMap("Bus");
+        
     }
 
     void LoadMap() {
